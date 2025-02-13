@@ -9,7 +9,8 @@
   --font-base: "Bai Jamjuree";
 }
 
-h1,
-p {
-  font-family: "Bai Jamjuree", sans-serif;
+body {
+  background-color: var(--color-base2);
+  color: var(--color-body);
+  font-family: var(--font-base), sans-serif;
 }
