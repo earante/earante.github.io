@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/style.css" />
     <link rel="stylesheet" href="assets/google-fonts/bai-Jamjuree/fonts.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container flex-lg-column">
@@ -71,25 +71,118 @@
       <section id="home" class="full-height px-lg-5">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8">
-              <h1 class="display-4 fw-bold">
-                I'M A <span class="text-brand">BSIT STUDENT</span>
-                AT CARAGA STATE UNIVERSITY
+            <div class="col-lg-10">
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
+                I'M <span class="text-brand">EMMANUEL ARANTE</span>
+                A STUDENT AT CARAGA STATE UNIVERSITY
               </h1>
-              <p class="lead mt-2 mb-4">
-                I am Emmanuel Arante, A passionate BSIT student learning web
-                development, I am dedicated, curious, and eager to improve my
-                skills. I actively explore programming languages like HTML, CSS,
-                and JavaScript while practicing frameworks and libraries to
-                build functional and visually appealing websites.
+              <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
+                A passionate BSIT Student learning Web Development, I am
+                dedicated, curious, and eager to improve my skills. I actively
+                explore programming languages like HTML, CSS, and JavaScript
+                while practicing frameworks and libraries to build functional
+                and visually appealing websites.
               </p>
-              <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
-              <a href="#" class="custom-link">Call: (0995 153 7853)</a>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
+                <a href="#" class="custom-link">Call: (0995 153 7853)</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <!-- END HOME -->
+
+      <!-- SERVICES -->
+      <section id="services" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">SERVICES</h6>
+              <h1>Services That I Provide</h1>
+            </div>
+          </div>
+          <div class="row g-3">
+            <div
+              class="col-md-4 gx-2 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div
+                class="services p-4 bg-base rounded-4 shadow-effect flex-grow-1 d-flex flex-column"
+              >
+                <div class="iconbox rounded-4">
+                  <i class="las la-laptop-medical"></i>
+                </div>
+                <h4 class="mt-4 mb-2">Basic Troubleshooting for Computers</h4>
+                <p>
+                  Maintaining a computer in good condition requires proper
+                  software installation, occasional formatting, hardware
+                  upgrades, and regular cleaning. Ensuring that your operating
+                  system and software are up to date can prevent many common
+                  issues. Regularly backing up important data protects against
+                  unexpected data loss. Additionally, monitoring system
+                  performance and addressing any unusual behavior promptly can
+                  help maintain optimal functionality.
+                </p>
+                <a href="#" class="custom-link mt-auto">Read More</a>
+              </div>
+            </div>
+            <div
+              class="col-md-4 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div
+                class="services p-4 bg-base rounded-4 shadow-effect flex-grow-1 d-flex flex-column"
+              >
+                <div class="iconbox rounded-4">
+                  <i class="las la-laptop-code"></i>
+                </div>
+                <h4 class="mt-4 mb-2">Web Development</h4>
+                <p>
+                  A Student embarking on web development begins by mastering
+                  HTML, CSS, and JavaScript. Exploring frameworks like React or
+                  Vue simplifies development with reusable components.
+                  Additionally, a basic understanding of responsive design
+                  ensures that the websites work seamlessly across various
+                  devices. By collaborating with peers and seeking feedback, We
+                  the students can improve our skills and refine our projects.
+                  With these practices, We can create dynamic, user-friendly web
+                  applications that meet modern standards.
+                </p>
+                <a href="#" class="custom-link mt-auto">Read More</a>
+              </div>
+            </div>
+            <div
+              class="col-md-4 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div
+                class="services p-4 bg-base rounded-4 shadow-effect flex-grow-1 d-flex flex-column"
+              >
+                <div class="iconbox rounded-4">
+                  <i class="las la-network-wired"></i>
+                </div>
+                <h4 class="mt-4 mb-2">Computer Networks</h4>
+                <p>
+                  In Computer Networks, I learned fundamental concepts like IP
+                  addressing, subnetting, and routing protocols. Exploring
+                  network architectures, such as client-server and peer-to-peer,
+                  helps them grasp various communication models. Additionally, a
+                  basic understanding of network security ensures they can
+                  protect data and maintain network integrity. With practice,
+                  they can design efficient, secure, and reliable network
+                  systems.
+                </p>
+                <a href="#" class="custom-link mt-auto">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END SERVICES -->
     </div>
     <!-- END CONTENT WRAPPER -->
 
